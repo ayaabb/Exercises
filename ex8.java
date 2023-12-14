@@ -1,4 +1,4 @@
-//ex8:
+//HashTable:
 
 class MyHashTable {
     public List<List<Integer>> map = new ArrayList<>(10);
