@@ -1,4 +1,4 @@
-ex10:
+Big O Notation and Time Complexity Analysis:
 *******************************************************
 question 1:
 1)Bubble Sort: The algorithm compares or swap every number with n-i numbers in every iteration
