@@ -1,0 +1,35 @@
+ex10:
+*******************************************************
+question 1:
+1)Bubble Sort: The algorithm compares or swap every number with n-i numbers in every iteration
+where i is the index of the number and n is the total number of the elements.
+In the worst case where the array is in reverse order, the algorithm will have to do
+n comparisons and swaps for each element,resulting in n*(n-1) iterations, so time complexity is O(n^2).
+
+2)Merge Sort: Merge Sort follows a divide and conquer approach to sort the array,
+so every iteration the algorithm divides the array to two halves ,recursively sorts each half, 
+and then merges the sorted halves to obtain the final sorted array.
+*Every iteration costs o(n) time complexity where n is the total number of the elements ,
+because the time complexity of merge step of two sorted arrays is linear.
+*The divide step is to split the array to two halves until individual elements are reached ,
+this process takes O(log2n) time complexity .
+**So the overall time complexity of Merge Sort is O(nlog2n).
+
+3)Quick sort: Quick sort follows a divide and conquer approach to sort the array,
+In every iteration the array is partitioned into two sub-arrays based on a chosen pivot element,
+The pivot element is placed in its correct position,with all elements smaller than 
+the pivot on its left and all elements greater than the pivot on its right.
+On average, quick sort divides the array into two nearly equal-sized sub-arrays at each recursive step,
+this results in a balanced partitioning and leads to the average time complexity of O(n log n).
+(The logarithmic factor arises from the fact that the array is divided in half at each level of recursion)
+The worst-case occurs when the pivot is always chosen as the smallest or largest element.
+the worst-case time complexity of this implementation is o(n^2)
+ 
+*******************************************************
+question 2:
+1)Factorial number: We can see that there are n recursive calls to factorial function. 
+Each call maintains a record on the activation stack,the stack holds a copy of the variables n and result.
+So the space complexity  is O(n).
+
+2)permutations: Calling perm O(n * n!) times (as an upper bound) and each call takes O(n) time, 
+the total runtime will not exceed O(n^2 * n!). 
