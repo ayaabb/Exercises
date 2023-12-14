@@ -1,4 +1,4 @@
-//ex2:
+//Linked lists:
 //*******************************************************
 //question 1:
 public ListNode reverseList(ListNode head) {
