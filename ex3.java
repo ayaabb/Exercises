@@ -1,4 +1,4 @@
-//ex3:
+//Stacks and queues:
 //*******************************************************
 //question 1:
 class MyStack {
