@@ -1,4 +1,4 @@
-//ex6:
+//Search algorithms:
 //*******************************************************
 //question 1:
 public int linear_search(int arr[],int num){
